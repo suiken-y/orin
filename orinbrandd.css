@@ -1,0 +1,77 @@
+ul{list-style-type: none;}
+
+body{
+    background-color: rgb(42, 43, 43);
+    color: white;
+}
+
+h1{
+    font-size: 200px;
+    font-family: 'Anton',sans-serif;
+}
+span{
+
+color: red;
+}
+
+
+header{
+    background-color:rgb(75, 75, 75);
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.list_header{
+    background-color: rgb(2, 2, 2);
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+li{
+    float: left;
+    margin-left: 20px;
+
+}
+.list_header li{
+    display: flex;
+}
+
+.products img {
+    width: 200px;
+    height: 200px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pridycts li {
+    flex-basis: 10%;
+    list-style: none;
+    text-align: center;
+}
+footer{
+    text-align:  center;
+}
+
+form label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Serif JP", sans-serif}
+
+img.insta{
+    width: 200px;
+    height: 200px;
+}
+/* サイズ変更できない */

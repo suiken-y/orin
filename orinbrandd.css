@@ -47,7 +47,7 @@ li{
 .products {
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .pridycts li {

@@ -40,17 +40,13 @@ li{
 }
 
 .products img {
-    width: 90%;
-    height: auto;}
-
-.insta img{
-    width: 100;
-    height: 100;
+    width: 200px;
+    height: 200px;
 }
 
 .products {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .pridycts li {
@@ -74,5 +70,8 @@ a{
   color: white;
   font-family: "Noto Serif JP", sans-serif}
 
-
+img.insta{
+    width: 200px;
+    height: 200px;
+}
 /* サイズ変更できない */
